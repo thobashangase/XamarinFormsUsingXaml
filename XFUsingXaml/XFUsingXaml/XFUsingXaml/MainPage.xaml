@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:XAMLUI.ViewModels"
+             mc:Ignorable="d"
+             x:Class="XFUsingXaml.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height=".5*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="xamagon" BackgroundColor="PowderBlue" />
+
+        <Editor Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Placeholder="Enter note here" Margin="10, 10" Text="{Binding TheNote}" />
+
+        <Button Grid.Row="2" Grid.Column="0" Text="Save" Command="{Binding SaveCommand}"/>
+        
+        <Button Grid.Row="2" Grid.Column="1" Text="Erase" Command="{Binding EraseCommand}"/>
+
+        <!--<Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="Cool!" FontSize="Large"/>-->
+
+        <CollectionView ItemsSource="{Binding AllNotes}" Grid.Row="3" Grid.ColumnSpan="2"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedNote}"
+                        SelectionChangedCommand="{Binding SelectedNoteChangedCommand}">
+            <CollectionView.ItemTemplate> 
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame>
+                            <Label Text="{Binding .}" />
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
+    </Grid>
+
+</ContentPage>

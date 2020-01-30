@@ -1,0 +1,14 @@
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\bin\Debug\netstandard2.0\XFUsingXaml.deps.json
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\bin\Debug\netstandard2.0\XFUsingXaml.dll
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\bin\Debug\netstandard2.0\ref\XFUsingXaml.dll
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\bin\Debug\netstandard2.0\XFUsingXaml.pdb
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\XFUsingXaml.csprojAssemblyReference.cache
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\DetailPage.xaml.g.cs
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\XFUsingXaml.AssemblyInfoInputs.cache
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\XFUsingXaml.AssemblyInfo.cs
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\XFUsingXaml.dll
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\ref\XFUsingXaml.dll
+C:\Users\Thoba Shangase\source\repos\XFUsingXaml\XFUsingXaml\XFUsingXaml\obj\Debug\netstandard2.0\XFUsingXaml.pdb
